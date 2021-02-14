@@ -1,7 +1,7 @@
 import click
 import json
 import requests
-from internal.common.constants import DEFAULT_TIMEOUT, ROOT_URL, VERSION
+from internal.common.constants import DEFAULT_TIMEOUT, ROOT_URL
 
 
 @click.command(name="healthcheck")
